@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --color-primary-blue: #002b5b;
+  --color-accent-gold: #ffd700;
+  --color-text-dark: #333333;
+  --color-bg-gray: #f4f4f4;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-gray text-text-dark antialiased font-sans;
+  }
+}
+
+/* Custom styles for beautiful marketplace components */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

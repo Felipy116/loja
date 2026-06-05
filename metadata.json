@@ -1,0 +1,6 @@
+{
+  "name": "Novari",
+  "description": "Uma loja virtual completa e moderna inspirada nos maiores marketplaces da América Latina, focada em credibilidade, segurança e conversão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
